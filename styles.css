@@ -1,0 +1,49 @@
+body{
+    background: #454545;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+}
+.left,.right{
+    flex-basis: 50%;
+    padding: 30px;
+}
+textarea{
+    width: 100%;
+    height: 46%;
+    background: #272727;
+    color: #fff;
+    padding: 9px 10px;
+    border:0;
+    outline: 0;
+    font-size: 18px;
+   
+}
+iframe{
+    width: 100%;
+    height: 180%;
+    background: #fff;
+    border: 0;
+    outline: 0;
+}
+label i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+label{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: #000;
+    height: 30px;
+    padding: 9px 10px;
+    
+}
+.right label{
+    width: 97%;
+}
+

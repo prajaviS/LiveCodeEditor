@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width-device-width, initial-scle=1.0">
+    <title>Live Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/40d11980d8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <label>HTML <i class="fa-brands fa-html5" style="color: #f50f0f;"></i></label>
+            <textarea id="html-code" onkeyup="run()"></textarea>
+            <label>CSS <i class="fa-brands fa-css3" style="color: #2968d6;"></i></label>
+            <textarea id="css-code" onkeyup="run()"></textarea>
+            <label>JavaScript <i class="fa-brands fa-square-js" style="color: #f0eb4c;"></i></label>
+            <textarea id="js-code" onkeyup="run()"></textarea>
+        </div>
+        <div class="right">
+            <label>OUTPUT<i class="fa-solid fa-play" style="color: #24cbf5;"></i></label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+   <script src="index.js"></script>
+</body>
+
+</html>
